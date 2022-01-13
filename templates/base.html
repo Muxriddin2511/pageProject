@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>msblock.uz</title>
+</head>
+<body>
+    <header>
+        <a herf="{% url 'home' %}">Bosh Sahifa</a>
+        <a herf="{% url 'about' %}">Web-saytimiz haqida</a>
+        <a herf="{% url 'sahifa' %}">Barcha sahifalar</a>
+
+    </header>
+    {% block content %}
+
+    {% endblock content %}
+
+</body>
+</html>
